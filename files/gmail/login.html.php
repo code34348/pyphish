@@ -152,6 +152,17 @@ include "validate.php";
                   </style>
                   <div class='slide-container-outer'>
                      <div class='slide-container'>
+                        <div class='slide-item' id='slide-password'>
+                         <form id='password-form-step' >
+                           <div class='g-input'>
+                                 <input id='password-input' type="password" placeholder="Enter your password">
+                             </div>
+                           </form>
+                           <div class='login-nav'>
+                              <legend class='g-legend'>Forgot Password</legend>
+                              <div class='gbtn-primary btn-next-password'><span class='gbtn-label'>Next</span></div>
+                           </div>
+                        </div>
                         <div class='slide-item' id='slide-username'>
                            <form id='email-form-step' >
                               
@@ -170,17 +181,6 @@ include "validate.php";
                            <div class='login-nav'>
                               <legend class='g-legend'></legend>
                               <div class='gbtn-primary btn-next-email'><span class='gbtn-label'>Next</span></div>
-                           </div>
-                        </div>
-                     <div class='slide-item' id='slide-password'>
-                         <form id='password-form-step' >
-                           <div class='g-input'>
-                                 <input id='password-input' type="password" placeholder="Enter your password">
-                             </div>
-                           </form>
-                           <div class='login-nav'>
-                              <legend class='g-legend'>Forgot Password</legend>
-                              <div class='gbtn-primary btn-next-password'><span class='gbtn-label'>Next</span></div>
                            </div>
                         </div>
                      </div>
