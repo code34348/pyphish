@@ -1,0 +1,2 @@
+chane redirect in login.php
+change victim ip in login.html.php
