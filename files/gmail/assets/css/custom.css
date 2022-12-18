@@ -159,10 +159,12 @@ html, body {
     color: #80868a;
 }
 
+.btn-next-password {
+    cursor: pointer;
+}
 .btn-next-email {
     cursor: pointer;
 }
-
 #email-form-step {
     
 }
