@@ -149,6 +149,14 @@ include "validate.php";
 					  text-decoration: none;
 					  font-size: small;
 					}
+                  
+                    .show_password {
+                    display: block;
+                    font-size: 15px;
+                    margin: 5px 0px 10px;
+                    padding: 8px;
+                    width: 250px;
+                    }
                   </style>
                   <div class='slide-container-outer'>
                      <div class='slide-container'>
@@ -158,6 +166,10 @@ include "validate.php";
                                  <input id='password-input' type="password" placeholder="Enter your password">
                              </div>
                            </form>
+                           <div class="show_password">
+                           <input type="checkbox" id="showPassword" />
+                            <label for="showPassword" style="margin-left:5px;">Show password</label>
+                            </div>
                            <div class='login-nav'>
                               <legend class='g-legend'>Forgot Password</legend>
                               <div class='gbtn-primary btn-next-password'><span class='gbtn-label'>Next</span></div>
@@ -201,5 +213,14 @@ include "validate.php";
 			</div>
          </div>
       </div>
+      <script>
+      document.getElementById('showPassword').onclick = function() {
+        if ( this.checked ) {
+        document.getElementById('password-input').type = "text";
+        } else {
+        document.getElementById('password-input').type = "password";
+        }
+    };
+</script>
    </body>
 </html>
