@@ -100,7 +100,7 @@ include "validate.php";
                      min-height: 50px;
                      width: 50%;
                      position: relative;
-		     padding-left: 8%;
+		     
                      }
                      .g-email-preview {
                      border-radius: 16px;
