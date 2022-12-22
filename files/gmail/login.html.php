@@ -126,7 +126,7 @@ include "validate.php";
 						  justify-content: space-between;
 						  padding-top: 24px;
 						  font-size: 12px;
-						  width: 448px;
+						  width: 390px;
 						  color: var(--p);
 						}
 						.footer select {
