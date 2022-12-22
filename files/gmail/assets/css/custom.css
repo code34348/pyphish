@@ -79,9 +79,10 @@ html, body {
 }
 
 .p {
-    font-size: 14px;
+    font-size: 11px;
     color: #5f6368;
     margin-bottom: 0px;
+	text-align: center;
 }
 
 .login-priv {
