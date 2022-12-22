@@ -85,7 +85,7 @@ include "validate.php";
                <div >
                   <style>
                      .slide-container-outer {
-                     width: 100%;
+                     width: 90%;
                      min-height: 50px;
                      position: relative;
                      overflow-x: hidden;
