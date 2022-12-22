@@ -94,11 +94,13 @@ include "validate.php";
                      position: relative; /* absolute; */                                                                                 /*   ''"COOGLE FAKE GOOGLE LOGIN PAGE"'' */
                      width: 200%;
                      display: flex;
+	             
                      }
                      .slide-item {
                      min-height: 50px;
                      width: 50%;
                      position: relative;
+		     padding-left: 5%;
                      }
                      .g-email-preview {
                      border-radius: 16px;
